@@ -11,7 +11,7 @@ public class Calculator {
 	// 构造函数传参，并解析
 	public Calculator(String expStr) { // expStr = a+b
 		// 安排运算先后顺序
-		Stack<Expression> stack = new Stack<>();
+		Stack<Expression> stack = new Stack<Expression>();
 		// 表达式拆分成字符数组
 		char[] charArray = expStr.toCharArray();// [a, +, b]
 

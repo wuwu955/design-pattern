@@ -9,7 +9,7 @@ import java.util.List;
  * @description
  */
 public class ObjectStructure {
-    private List<Person> persons = new LinkedList<>();
+    private List<Person> persons = new LinkedList<Person>();
 
     public void attach(Person person){
         persons.add(person);
